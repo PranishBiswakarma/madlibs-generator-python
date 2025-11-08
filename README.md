@@ -1,20 +1,24 @@
 # Mad Libs Generator (Python)
 
-A playful Python project that asks the user for words and builds a customized short story using Mad Libs.
+This Python program reads a story template with placeholders marked by `<word>`, prompts the user to enter words corresponding to each placeholder, and then generates a complete story with the user’s input.
 
 ## How It Works
 
-- The program prompts the user for nouns, verbs, adjectives, and other words.
-- It inserts the words into a story template and prints the personalized, funny result.
+- Reads the story from `story.txt` that contains placeholders like `<noun>`, `<verb>`, etc.
+- Searches and collects all unique placeholders in the story.
+- Asks the user to input words for each placeholder.
+- Replaces placeholders with user input to generate the final story.
+- Prints the customized story to the console.
 
 ## What I Learned and Used
 
-- Gathering user input with `input()` in Python.
-- Replacing placeholders with variables to build sentences.
-- Writing readable code for stories with branching text.
-- Practiced basic string formatting and CLI interaction.
+- File handling: reading a story template from a text file.
+- String parsing and manipulation to find placeholders.
+- Using `set` to track unique placeholders.
+- Dictionary usage for storing user responses.
+- Basic input and output for interactive CLI applications.
+- Building dynamic content generation using user input.
 
 ## Skills Used
 
-Python, Input Handling, String Formatting, CLI Design
-
+Python, File I/O, String Processing, User Input, Data Structures (sets, dictionaries), CLI Design
